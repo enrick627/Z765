@@ -10,47 +10,28 @@ namespace Z7
         /// <summary>
         /// dit is de lengte van het zwembad in meter
         /// </summary>
-        public byte lengte
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public byte lengte { get; set; }
+        
 
         /// <summary>
         /// breedte van het zwembad in meter
         /// </summary>
-        public byte breedte
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public byte breedte { get; set; }
+        
 
         /// <summary>
         /// diepte van het zwembad in meter
         /// </summary>
-        public byte diepte
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public byte diepte { get; set; }
 
         /// <summary>
-        /// het watervolume
+        /// het totale watervolume diepte*breedte*lengte
         /// </summary>
-        public int Watervolum()
-        {
-            throw new System.NotImplementedException();
-        }
+        public ushort Watervolume { get; set; }
 
-        /// <summary>
-        /// de tijd die het zwembad nodig heeft om te vullen
-        /// </summary>
+
+
+        /// <summary></summary>
         public string VulZwembad()
         {
             throw new System.NotImplementedException();
