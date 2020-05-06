@@ -10,8 +10,15 @@
   <Class Name="Z7.Zwembad">
     <Position X="2.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAABAAgAAAAAAAAAAgAI=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAQBAAgAAAAAAAAAAAAI=</HashCode>
       <FileName>Zwembad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Z7.OvaalZwembad">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAEAAAAAAAAAAAAAAAAUAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>OvaalZwembad.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
