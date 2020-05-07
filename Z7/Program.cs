@@ -20,8 +20,11 @@ namespace Z7
             Console.WriteLine(zwembad.Watervolume);
             watevolumetest = Console.ReadLine();
 
-            RondZwembad.diameter = 7
-            
+            RondZwembad.diameter = 7;
+            RondZwembad.diepte = 2;
+            RondZwembad.watervolume = (ushort)(RondZwembad.diameter * RondZwembad.diameter * RondZwembad.diepte * 0.78);
+
+
 
         }
     }

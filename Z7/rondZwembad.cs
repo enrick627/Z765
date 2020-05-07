@@ -30,7 +30,10 @@ namespace Z7
             {
             }
         }
-
+        /// <summary>
+        /// het volume
+        /// </summary>
+        /// <returns></returns>
         public ushort watervolume
         {
             get => default;
@@ -42,9 +45,19 @@ namespace Z7
         /// <summary>
         /// de tijd die nodig is om het zwembad te vullen
         /// </summary>
-        public string Vulzwembad()
+        /// <param name="tijd"></param>
+        /// <returns>de tijd die het zwembad nodig heeft om te vullen</returns>
+        public string Vulzwembad(int tijd)
         {
-            throw new System.NotImplementedException();
+            bool Isgelukt = false;
+            if (diepte > 0)
+            {
+                tijd = diepte * diameter / watervolume;
+                Isgelukt = true;
+            }
+            return Isgelukt.ToString();
+
+            
         }
     }
 }
