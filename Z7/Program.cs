@@ -11,6 +11,7 @@ namespace Z7
         static void Main(string[] args)
         {
             Zwembad zwembad = new Zwembad();
+            rondZwembad RondZwembad = new rondZwembad();
             string watevolumetest;
             zwembad.lengte = 7;
             zwembad.breedte = 8;
@@ -18,6 +19,9 @@ namespace Z7
             zwembad.Watervolume =(ushort)( zwembad.lengte * zwembad.breedte * zwembad.diepte);
             Console.WriteLine(zwembad.Watervolume);
             watevolumetest = Console.ReadLine();
+
+            RondZwembad.diameter = 7
+            
 
         }
     }

@@ -21,5 +21,12 @@
       <FileName>OvaalZwembad.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Z7.rondZwembad">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAA=</HashCode>
+      <FileName>rondZwembad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

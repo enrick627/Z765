@@ -46,6 +46,7 @@
     <Compile Include="OvaalZwembad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rondZwembad.cs" />
     <Compile Include="watervolume.cs" />
     <Compile Include="Zwembad.cs" />
   </ItemGroup>
