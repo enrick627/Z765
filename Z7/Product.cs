@@ -66,7 +66,7 @@ namespace Z7
         /// de prijs berekent
         /// </summary>
         /// <param name="bedrag">het bedrag dat moet betaalt worden</param>
-        public decimal BerekenVerkoopPrijs(decimal bedrag)
+        public string BerekenVerkoopPrijs(decimal bedrag)
         {
             
             bool Isgelukt = false;
@@ -90,14 +90,27 @@ namespace Z7
                 bedrag = Prijs + Prijs / 100 * 40;
                 Isgelukt = true;
             }
+            else
+            {
+                Console.WriteLine("dit is geen correcte info");
+                Isgelukt = false;
+            }
+            return Isgelukt.ToString();
         }
 
         /// <summary>
         /// geeft alles weer
         /// </summary>
-        public string Tostring()
+        /// <param name="Volledigproduct"></param>
+        public string Tostring(string volledigproduct)
         {
-            throw new System.NotImplementedException();
+            bool Isvoltooid = false;
+            if (Materiaal != "")
+            {
+                volledigproduct = $"{Naam}({Model}),{Kleur} en {Materiaal}";
+                Isvoltooid = true;
+            }
+            return Isvoltooid.ToString();
         }
     }
 }
