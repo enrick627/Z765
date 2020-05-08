@@ -12,35 +12,20 @@ namespace Z7
         /// <summary>
         /// de diameter van het zwembad
         /// </summary>
-        public byte diameter
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public byte diameter { get; set; }
 
         /// <summary>
         /// de diepte
         /// </summary>
-        public byte diepte
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public byte diepte { get; set; }
+
         /// <summary>
         /// het volume
         /// </summary>
         /// <returns></returns>
-        public ushort watervolume
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public ushort watervolume { get; set; }
+     
+        
 
         /// <summary>
         /// de tijd die nodig is om het zwembad te vullen
@@ -56,8 +41,6 @@ namespace Z7
                 Isgelukt = true;
             }
             return Isgelukt.ToString();
-
-            
         }
     }
 }

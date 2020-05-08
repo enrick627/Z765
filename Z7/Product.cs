@@ -10,57 +10,32 @@ namespace Z7
         /// <summary>
         /// de naam van het product
         /// </summary>
-        public string Naam
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public string Naam { get; set; }
+        
 
         /// <summary>
         /// de prijs van het product
         /// </summary>
-        public decimal Prijs
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public decimal Prijs { get; set; }
+       
 
         /// <summary>
         /// welk model zwembad is dit
         /// </summary>
-        public string Model
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public string Model { get; set; }
+        
 
         /// <summary>
         /// RAL code van het zwembad
         /// </summary>
-        public string Kleur
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public string Kleur { get; set; }
+        
 
         /// <summary>
         /// welk soort materiaal is het product
         /// </summary>
-        public string Materiaal
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public string Materiaal { get; set; }
+       
 
         /// <summary>
         /// de prijs berekent
