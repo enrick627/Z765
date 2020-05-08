@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Z7.Zwembad">
-    <Position X="2.5" Y="1.75" Width="1.5" />
+    <Position X="2" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAQBAAgAAAAAAAAAAAAI=</HashCode>
       <FileName>Zwembad.cs</FileName>
@@ -22,10 +22,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Z7.rondZwembad">
-    <Position X="4.25" Y="1.75" Width="1.5" />
+    <Position X="3.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAA=</HashCode>
       <FileName>rondZwembad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Z7.Product">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAAAAAAAEAAAADAAAAAAAIAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
