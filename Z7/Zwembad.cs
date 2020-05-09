@@ -27,7 +27,7 @@ namespace Z7
         /// <summary>
         /// het totale watervolume diepte*breedte*lengte
         /// </summary>
-        public ushort Watervolume { get; set; }
+        public ushort Watervolume { get; }
 
 
 
